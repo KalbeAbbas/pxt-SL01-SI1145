@@ -21,7 +21,7 @@ enum DISTANCE
 /**
  * SI1145 block
  */
-//%color=#444444 blockGap=8 icon="\uf185" block="SL01"
+//% color=190 weight=100 icon="\uf1ec" block="Basic Blocks"
 //% groups = '["New SL01", "Old SL01", "other"]'
 namespace SL01 {
     let SI1145_I2C_ADDR = SI1145_ADDR.ADDR_0x60
