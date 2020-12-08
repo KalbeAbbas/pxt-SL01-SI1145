@@ -26,6 +26,11 @@ enum DISTANCE
 namespace SL01 {
     let SI1145_I2C_ADDR = SI1145_ADDR.ADDR_0x60
 
+    //% blockId=device_show_number
+    //% block="show|number %v"
+    export function showNumber(v: number, interval: number = 150): void
+    { }
+
     function setreg(reg: number, dat: number): void {
         let buf = pins.createBuffer(2);
         buf[0] = reg;
