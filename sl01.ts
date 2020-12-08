@@ -133,7 +133,6 @@ namespace SL01 {
         setreg(0x18, 0x0F);
     }
 
-    begin()
 
     /**
      * Ultra Violet Index
@@ -180,4 +179,6 @@ namespace SL01 {
         }
         return 0
     }
+
+    begin()
 } 
